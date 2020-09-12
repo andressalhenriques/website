@@ -1,0 +1,111 @@
+/*SECTION PORTFOLIO*/
+.row {
+    justify-content: center;
+    width: 100%;
+    padding-top: 2%;
+}
+
+#portifolio {
+    padding: 3rem 10%;
+    background-color: #fff3f1;
+}
+
+.card {
+    border: none!important;
+    text-align: center;
+    width: 23vw;
+    margin-right: 1rem;
+}
+.card:hover{
+    cursor: crosshair;
+    cursor: url(../../assets/more.png) 40 40, crosshair;
+    background-color: #fff;
+    opacity: 0.5;
+}
+
+
+.card:last-child {
+    margin-right: 0;
+    
+}
+
+.card-title {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 0;
+    color: #000;
+}
+
+p.card-text {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    text-transform: lowercase;
+    color: #424242;
+}
+
+
+.divImg {
+    position: relative;
+}
+
+.divImg img {
+    display: block;
+}
+.divImg .icons {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    display: flex;
+    transform: translate(-50%, -50%);
+}
+
+
+.cardBodyPortfolio {
+    position: relative;
+}
+
+.cardOnHover .icons{
+    display: none;
+}
+
+.cardOnHover:hover .icons{
+    display: flex;
+}
+
+
+
+@media all and (max-width: 750px) { 
+    
+    #portifolio {
+        padding: 3rem 0;
+        background-color: #fff3f1;
+    }
+    a.navbar-brand img {
+        padding-left: 0;
+    }
+    .row {
+        flex-direction: column;
+        justify-content: center;
+        display: grid;
+    }
+    .card {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    
+
+    #portifolio .row {
+        margin: 0;
+    }
+
+    .portifolio h2.class-before {
+        padding: 0 10%;
+    }
+
+    #portifolio .nav-link {
+        padding: 0!important;
+    }
+}
+

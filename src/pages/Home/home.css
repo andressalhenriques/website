@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #ffc533!important;
+}
+
+.div-body {
+    margin: 1rem;
+}
+
+/*IMAGE */
+.image-header {
+    background-image: url("../../assets/australia.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*ABOUT*/
+#about .img-about, .div-about {
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+/*social icon after iamge*/
+
+.socialicons img {
+    width: 25px;
+}
+.socialicons.nav {
+    justify-content: center;
+}
+.socialicons .nav-item a {
+    padding: 0.5rem;
+}
+
+
+.class-before h2 {
+    line-height: 1em!important;
+    font-weight: 800!important;
+    font-size: 1rem!important;
+    letter-spacing: -0.05em;
+    word-break: normal;
+}
+
+.class-before:before {
+    content: "";
+    display: block;
+    width: 20px;
+    border-top: 1px solid #707070;
+    margin-bottom: 2vw;
+}
+
+.div-about {
+    background-color: #fff;
+}
+#about {
+    display: flex;
+    width: 66.6667%;
+    margin: 0 auto;
+    padding: 3rem 0;
+    align-items: center;
+}
+
+#about h2 {
+    font-family: 'Reenie Beanie', cursive;
+    margin: .67em 0;
+    color: #ffc533;
+    font-size: 2.5rem;
+}
+#about p {
+    margin: 0 auto;
+    text-align: left;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 19px;
+    letter-spacing: .05em;
+    line-height: 1.6em;
+    text-transform: none;
+    color: rgba(29,29,29,.7);
+}
+.div-aboutMe {
+    height: auto;
+    z-index: 10;
+}
+.div-text {
+    background-color: #fff;
+    padding: 2rem;
+    margin-left: 8rem;
+    width: 90%;
+}
+
+.img-about img {
+    width: 100%;
+    margin-right: 8rem;
+}
+
+.div-aboutMe h5 {
+    color: #1d1d1d;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 0em;
+    line-height: 1.4em;
+    text-transform: none;
+}
+
+/* div yellow */
+.div-yellow {
+    height: 200px;
+}
+@media all and (max-width: 1170px) { 
+    .div-text {
+        margin-left: 4rem;
+    }
+    .img-about {
+        margin-right: 0rem;
+    }
+   
+}
+
+@media all and (max-width: 908px) { 
+    
+    .div-text {
+        margin-left: 0;
+    }
+    #about {
+        width: 85%;
+        flex-direction: column;
+    }
+
+    #about p {
+        max-width: none;
+    }
+    .card {
+        width: auto;
+    }
+    h2.class-before {
+        padding: 0;
+    }
+    .img-about {
+        margin-left: 0;
+        margin-right: auto;
+    }
+    .div-text {
+        margin: 0;
+        padding: 0;
+        padding-bottom: 2rem;
+    }
+    #about .img-about {
+        padding: 0;
+    }
+    .div-yellow {
+        height: 100px;
+    }
+    .img-about img {
+        margin-right: 0;
+    }
+}
+
+@media all and (max-width: 500px) { 
+    
+
+    .contact-social {
+        flex-direction: column;
+        padding-top: 2rem;
+    }
+    #about {
+        width: 100%;
+    }
+    .contact-text h2 {
+
+        text-align: left;
+    }
+
+    
+}

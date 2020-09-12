@@ -1,0 +1,37 @@
+{
+    "About": {
+        "1": "Sobre"
+    },
+    "Portfolio": {
+        "1": "Portfolio"
+    },
+    "Contact": {
+        "1": "Contato"
+    },
+    "name": {
+        "1": "Olá, Me chamo Andressa."
+    },
+    "AboutMe": {
+        "1": "Sou Software Engineer | Design and Web Developer."
+    },
+    "AboutMeTwo": {
+        "1": "Minha paixão é programar, encontro felicidade em ser minha melhor versão hoje do que fui ontem."
+    },
+    "Work": {
+        "1": "Meus Projetos"
+    },
+    "Airbnb": {
+        "1": "Site baseado no Airbnb"
+    }
+    ,
+    "Development": {
+        "1": "Desenvolvimento"
+    },
+    "Project":{
+        "1": "Se você tem um projeto específico em mente, gostaria que eu o ajudasse, ou deseja apenas conselhos e comentários sobre qualquer coisa, basta perguntar."
+    },
+    "ProjectTitle":{
+        "1": "Você tem um projeto em mente? Vamos conversar."
+    }
+
+}

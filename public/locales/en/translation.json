@@ -1,0 +1,36 @@
+{
+    "About": {
+        "1": "About"
+    },
+    "Portfolio": {
+        "1": "Portfolio"
+    },
+    "Contact": {
+        "1": "Contact"
+    },
+    "name": {
+        "1": "Hey, I'm Andressa."
+    },
+    "AboutMe": {
+        "1": "I'm Software Enginieer | Design and Web Developer."
+    },
+    "AboutMeTwo": {
+        "1": "My passion is coding, and I find happiness in being a better me today than the me yesterday. "
+    },
+
+    "Work": {
+        "1": "My Projects"
+    },
+    "Airbnb": {
+        "1": "Airbnb inspiration"
+    },
+    "Development": {
+        "1": "Development"
+    },
+    "Project":{
+        "1": "Whether you have a particular project in mind you’d like me to help with, or you just want advice and feedback on anything, just ask."
+    },
+    "ProjectTitle":{
+        "1": "Got a project in mind? Let's chat."
+    }
+}
